@@ -1,0 +1,60 @@
+body {
+    background-color: rgb(26, 32, 52);
+    margin:0%
+}
+
+div.Passage {
+    color: rgb(0, 0, 0);
+    background-color: antiquewhite;
+    border: 0.5rem solid black;
+    margin: 15px;
+    padding: 1rem;
+    font: bold 1rem sans-serif;
+    padding: 50px 80px;
+    border-radius: 4rem;
+    text-align: center;
+    width: 60%;
+    position: relative; 
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+
+#Skills {
+    color: rgb(0, 0, 0);
+    background-color: antiquewhite;
+    border: 0.5rem solid gray;
+    padding: 1rem;
+    font: bold 1rem sans-serif;
+    margin: 2rem;
+    padding: 1rem;
+    border-radius: 4rem;
+    text-align: center;
+    width: 60%;
+    position: relative; 
+    left: 50%;
+    transform: translateX(-50%);
+    width:auto;
+    height:auto;
+}
+
+#Examples{
+    overflow: auto;
+    max-height: 10%;
+    flex-wrap: nowrap;
+}
+
+div.Parallax {
+    background-image: url("https://images.unsplash.com/photo-1588204784390-d3b85c298e29?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Zm9nJTIwdHJlZXxlbnwwfHwwfHw%3D&w=1000&q=80");
+    min-height: 200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    font: bold 4rem sans-serif;
+    text-shadow: antiquewhite;
+    text-shadow: 1rem;
+    text-align: center;
+    padding: 9rem;
+  }
